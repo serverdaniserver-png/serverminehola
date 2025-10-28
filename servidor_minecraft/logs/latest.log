@@ -1,0 +1,825 @@
+[28Oct2025 20:51:50.453] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.206, --fml.fmlVersion, 4.0.41, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
+[28Oct2025 20:51:50.456] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1
+[28Oct2025 20:51:50.457] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.8 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[28Oct2025 20:51:50.780] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[28Oct2025 20:51:50.842] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/serverminehola/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[28Oct2025 20:51:51.111] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.206:server]
+[28Oct2025 20:51:51.136] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.206-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.206/neoforge-21.1.206-universal.jar]], reader: mod manifest]
+[28Oct2025 20:51:51.158] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "[1.21.1] SecurityCraft v1.10.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.161] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "appleskin-neoforge-mc1.21-3.0.7.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.164] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.168] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "artifacts-neoforge-13.1.0.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.171] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "bossesrise-1.21.1-neoforge-1.0.9.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.175] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.178] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "choccos_mobs-0.1.3-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.181] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.185] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "collective-1.21.1-8.11.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.189] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreativeCore_NEOFORGE_v2.13.13_mc1.21.1.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.192] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.196] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DungeonsArise-1.21.x-2.1.64-release.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.202] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dynamiclights-v1.9-mc1.17-1.21.9-mod.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.204] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "elevatorid-neoforge-1.21.1-1.11.4.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.206] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "expandability-12.0.0.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.208] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ExtraGems-1.21-(v.3.0.5-NEO).jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.211] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ForgeConfigAPIPort-v21.1.4-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.213] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "framework-neoforge-1.21.1-0.9.6.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.215] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.8.2.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.217] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "GlitchCore-neoforge-1.21.1-2.1.0.0.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.219] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "him-2.0.2-neoforge-1.21.1.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "IceAndFireCE-2.0-beta.7-1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.228] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.25.0.321.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.232] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.0-beta.52.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.234] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jupiter-2.2.2-neoforge.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.236] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mss-1.3.5-1.21.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.238] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MutantMonsters-v21.1.0-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.241] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mvs-4.3.0-1.21.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.243] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "naturallychargedcreepers-1.21.1-3.5.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.248] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PlayerRevive_NEOFORGE_v2.0.36_mc1.21.1.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.252] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "PuzzlesLib-v21.1.38-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.254] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Rainbows-1.21-1.5.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.261] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "refurbished_furniture-neoforge-1.21.1-1.0.20.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.263] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.265] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sleep-v.3.2.2.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.270] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "tombstone-neoforge-1.21.1-9.4.8.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.272] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "treeharvester-1.21.1-9.1.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.280] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "twilightforest-1.21.1-4.6.3003-universal.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.293] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "u_team_core-neoforge-1.21.1-5.6.2.384.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.296] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "uranus-2.4-1.21.1-neoforge.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.306] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "useful_backpacks-neoforge-1.21.1-3.0.2.129.jar" [locator: {mods folder locator at /workspaces/serverminehola/servidor_minecraft/mods}, reader: mod manifest]
+[28Oct2025 20:51:51.668] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: /workspaces/serverminehola/servidor_minecraft/mods/architectury-13.0.8-neoforge.jar
+[28Oct2025 20:51:51.668] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: expandability. Using Mod File: /workspaces/serverminehola/servidor_minecraft/mods/expandability-12.0.0.jar
+[28Oct2025 20:51:51.669] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 35 dependencies adding them to mods collection
+[28Oct2025 20:51:51.669] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.1.206-universal.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.669] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-fixes-worldgen-threading-issues-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.669] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-threading-lighting-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.669] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-fixes-chunkio-threading-issues-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.669] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-client-uncapvd-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.669] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-rewrites-chunk-serializer-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.670] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.206.jar" [parent: neoforge-21.1.206-universal.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.670] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.52.jar, locator: jarinjar]
+[28Oct2025 20:51:51.670] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-server-utils-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.670] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.18-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.52.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.670] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-natives-math-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.670] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-dfc-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.671] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-fixes-general-threading-issues-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.671] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-notickvd-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.671] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-neoforge-0.2.0-beta.6.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.671] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jctools-core-4.0.5.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar]
+[28Oct2025 20:51:51.671] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-worldgen-general-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.671] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-chunkio-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.671] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-math-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.672] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-rewrites-chunk-system-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.672] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "rxjava-3.1.12.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar]
+[28Oct2025 20:51:51.672] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "s.tf-asm-4.6.3003.jar" [parent: twilightforest-1.21.1-4.6.3003-universal.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.672] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "MixinSquared-0.2.0-beta.6.jar" [parent: mixinsquared-neoforge-0.2.0-beta.6.jar, locator: jarinjar]
+[28Oct2025 20:51:51.672] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "reactive-streams-1.0.4.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar]
+[28Oct2025 20:51:51.672] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-base-mc1.21.1-0.3.0+alpha.0.82-all.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.673] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-rewrites-chunkio-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.673] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-fixes-worldgen-vanilla-bugs-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.673] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-worldgen-vanilla-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.673] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "integration-neoforge-0.2.jar" [parent: IceAndFireCE-2.0-beta.7-1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.673] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "u_team_core-neoforge-coremod-1.21.1-5.6.2.384.jar" [parent: u_team_core-neoforge-1.21.1-5.6.2.384.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.673] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-scheduling-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.674] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1-SNAPSHOT.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.52.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.674] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "c2me-opts-allocs-mc1.21.1-0.3.0+alpha.0.82.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar, reader: mod manifest]
+[28Oct2025 20:51:51.674] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "asyncutil-0.1.0.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar]
+[28Oct2025 20:51:51.674] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "exp4j-0.4.8.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar, locator: jarinjar]
+[28Oct2025 20:51:51.677] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AppleSkin 3.0.7+mc1.21 (appleskin)
+		Architectury 13.0.8 (architectury)
+		Artifacts 13.1.0 (artifacts)
+		Bosses'Rises 1.0.9 (block_factorys_bosses)
+		Chocco's Mobs 0.1.3 (choccos_mobs)
+		Cloth Config v15 API 15.0.140 (cloth_config)
+		Collective 8.11 (collective)
+		Common Networking 1.0.18-1.21.1 (commonnetworking)
+		Concurrent Chunk Management Engine 0.3.0+alpha.0.82+1.21.1 (c2me)
+		Concurrent Chunk Management Engine (Base) 0.3.0+alpha.0.82+1.21.1 (c2me_base)
+		Concurrent Chunk Management Engine (Client/Uncap View Distance) 0.3.0+alpha.0.82+1.21.1 (c2me_client_uncapvd)
+		Concurrent Chunk Management Engine (Fixes/Chunk IO/Threading Issues) 0.3.0+alpha.0.82+1.21.1 (c2me_fixes_chunkio_threading_issues)
+		Concurrent Chunk Management Engine (Fixes/General/Threading Issues) 0.3.0+alpha.0.82+1.21.1 (c2me_fixes_general_threading_issues)
+		Concurrent Chunk Management Engine (Fixes/WorldGen/Threading Issues) 0.3.0+alpha.0.82+1.21.1 (c2me_fixes_worldgen_threading_issues)
+		Concurrent Chunk Management Engine (Fixes/WorldGen/Vanilla Bugs) 0.3.0+alpha.0.82+1.21.1 (c2me_fixes_worldgen_vanilla_bugs)
+		Concurrent Chunk Management Engine (No Tick View Distance) 0.3.0+alpha.0.82+1.21.1 (c2me_notickvd)
+		Concurrent Chunk Management Engine (Optimizations/Chunk IO) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_chunkio)
+		Concurrent Chunk Management Engine (Optimizations/Density Function Compiler) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_dfc)
+		Concurrent Chunk Management Engine (Optimizations/General WorldGen) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_worldgen_general)
+		Concurrent Chunk Management Engine (Optimizations/Math) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_math)
+		Concurrent Chunk Management Engine (Optimizations/Memory Allocations) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_allocs)
+		Concurrent Chunk Management Engine (Optimizations/Natives Math) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_natives_math)
+		Concurrent Chunk Management Engine (Optimizations/Scheduling) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_scheduling)
+		Concurrent Chunk Management Engine (Optimizations/Vanilla WorldGen) 0.3.0+alpha.0.82+1.21.1 (c2me_opts_worldgen_vanilla)
+		Concurrent Chunk Management Engine (Rewrites/Chunk IO) 0.3.0+alpha.0.82+1.21.1 (c2me_rewrites_chunkio)
+		Concurrent Chunk Management Engine (Rewrites/Chunk Serializer) 0.3.0+alpha.0.82+1.21.1 (c2me_rewrites_chunk_serializer)
+		Concurrent Chunk Management Engine (Rewrites/Chunk System) 0.3.0+alpha.0.82+1.21.1 (c2me_rewrites_chunk_system)
+		Concurrent Chunk Management Engine (Server Utils) 0.3.0+alpha.0.82+1.21.1 (c2me_server_utils)
+		Concurrent Chunk Management Engine (Threading/Lighting) 0.3.0+alpha.0.82+1.21.1 (c2me_threading_lighting)
+		Corail Tombstone 9.4.8 (tombstone)
+		CreativeCore 2.13.13 (creativecore)
+		Curios API 9.5.1+1.21.1 (curios)
+		Dynamic Lights 1.9+mod (dynamiclights)
+		ElevatorMod 1.21.1-1.11.4 (elevatorid)
+		ExpandAbility 12.0.0 (expandability)
+		Extra Gems 3.0.5 (extragems)
+		Forge Config API Port 21.1.4 (forgeconfigapiport)
+		Framework 0.9.6 (framework)
+		GeckoLib 4 4.8.2 (geckolib)
+		GlitchCore 2.1.0.0 (glitchcore)
+		him 2.0.1 (him)
+		Ice And Fire Community Edition 2.0-beta.7 (iceandfire)
+		Integration 0.2 (integration)
+		Journeymap 1.21.1-6.0.0-beta.52 (journeymap)
+		JourneyMap API 2.0.0 (journeymap_api)
+		Jupiter 2.2.2 (jupiter)
+		Just Enough Items 19.25.0.321 (jei)
+		Minecraft 1.21.1 (minecraft)
+		Moog's Soaring Structures 1.3.5-1.21 (mss)
+		Moog's Voyager Structures 4.3.0-1.21 (mvs)
+		MrCrayfish's Furniture Mod: Refurbished 1.0.20 (refurbished_furniture)
+		Mutant Monsters 21.1.0 (mutantmonsters)
+		Naturally Charged Creepers 3.5 (naturallychargedcreepers)
+		NeoForge 21.1.206 (neoforge)
+		PlayerRevive 2.0.36 (playerrevive)
+		Puzzles Lib 21.1.38 (puzzleslib)
+		Rainbows 1.5 (rainbows)
+		SecurityCraft 1.10 (securitycraft)
+		Serene Seasons 10.1.0.3 (sereneseasons)
+		Sleep 1-v.3.2.2 (mr_sleep)
+		The Twilight Forest 4.6.3003 (twilightforest)
+		Tree Harvester 9.1 (treeharvester)
+		U Team Core 5.6.2.384 (uteamcore)
+		Uranus 2.4 (uranus)
+		Useful Backpacks 3.0.2.129 (usefulbackpacks)
+		When Dungeons Arise 2.1.64 (dungeons_arise)
+[28Oct2025 20:51:52.680] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[28Oct2025 20:51:52.804] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[28Oct2025 20:51:52.958] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[28Oct2025 20:51:53.024] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.threading.lighting.mixin
+[28Oct2025 20:51:53.030] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.035] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[28Oct2025 20:51:53.037] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[28Oct2025 20:51:53.041] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[28Oct2025 20:51:53.051] [main/WARN] [C2ME Modules Manager/]: Disabling com.ishland.c2me.opts.natives_math.mixin due to incompatible Java version, see debug logs for details
+[28Oct2025 20:51:53.051] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.opts.natives_math.mixin
+[28Oct2025 20:51:53.054] [main/WARN] [mixin/]: Reference map 'rainbows.refmap.json' for rainbows.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.054] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[28Oct2025 20:51:53.060] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.062] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.064] [main/WARN] [mixin/]: Reference map 'glitchcore.refmap.json' for glitchcore.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.066] [main/WARN] [mixin/]: Reference map 'sereneseasons.refmap.json' for sereneseasons.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.067] [main/WARN] [mixin/]: Reference map 'sereneseasons.refmap.json' for sereneseasons.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.067] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.math.mixin
+[28Oct2025 20:51:53.071] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[28Oct2025 20:51:53.082] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.base.mixin
+[28Oct2025 20:51:53.176] [main/INFO] [C2ME Config System/]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[28Oct2025 20:51:53.179] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[28Oct2025 20:51:53.181] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[28Oct2025 20:51:53.183] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[28Oct2025 20:51:53.187] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[28Oct2025 20:51:53.188] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[28Oct2025 20:51:53.191] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.191] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.192] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.server.utils.mixin
+[28Oct2025 20:51:53.194] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.dfc.mixin
+[28Oct2025 20:51:53.194] [main/INFO] [C2ME Modules Manager/]: Disabling com.ishland.c2me.opts.dfc.mixin
+[28Oct2025 20:51:53.196] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.197] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.203] [main/WARN] [mixin/]: Reference map 'securitycraft.refmap.json' for securitycraft.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.203] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.notickvd.mixin
+[28Oct2025 20:51:53.233] [main/WARN] [mixin/]: Reference map 'mixins.tombstone.refmap.json' for tombstone.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.234] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[28Oct2025 20:51:53.236] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[28Oct2025 20:51:53.245] [main/WARN] [mixin/]: Reference map 'refurbished_furniture.refmap.json' for refurbished_furniture.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.259] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[28Oct2025 20:51:53.264] [main/WARN] [mixin/]: Reference map 'playerrevive.mixin.refmap.json' for playerrevive.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Oct2025 20:51:53.265] [main/INFO] [C2ME Modules Manager/]: Initializing com.ishland.c2me.opts.allocs.mixin
+[28Oct2025 20:51:53.645] [main/WARN] [mixin/]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca.spottedleaf.starlight.common.thread.SchedulingUtil)
+[28Oct2025 20:51:54.325] [main/WARN] [mixin/]: Error loading class: com/github/tartaricacid/touhoulittlemaid/entity/passive/EntityMaid (java.lang.ClassNotFoundException: com.github.tartaricacid.touhoulittlemaid.entity.passive.EntityMaid)
+[28Oct2025 20:51:54.423] [main/INFO] [C2ME Config System/]: Disabling config vanillaWorldGenOptimizations.optimizeStructureWeightSampler: Incompatible with twilightforest@4.6.3003 (*) (defined in c2me)
+[28Oct2025 20:51:54.444] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[28Oct2025 20:51:54.444] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found mixins.block_factorys_bosses.json:PlayerRollMixin from mod block_factorys_bosses
+[28Oct2025 20:51:54.449] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/OptionInstance (java.lang.ClassNotFoundException: net.minecraft.client.OptionInstance)
+[28Oct2025 20:51:54.450] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.OptionInstance was not found c2me-client-uncapvd.mixins.json:ISimpleOption from mod c2me_client_uncapvd
+[28Oct2025 20:51:54.453] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Options for invalid dist DEDICATED_SERVER
+[28Oct2025 20:51:54.455] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/Options (java.lang.RuntimeException: Attempted to load class net/minecraft/client/Options for invalid dist DEDICATED_SERVER)
+[28Oct2025 20:51:54.455] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.Options was not found c2me-client-uncapvd.mixins.json:MixinGameOptions from mod c2me_client_uncapvd
+[28Oct2025 20:51:54.457] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.gui.SodiumGameOptionPages)
+[28Oct2025 20:51:54.458] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net.caffeinemc.sodium.config.user.UserConfigCategories)
+[28Oct2025 20:51:54.460] [main/WARN] [mixin/]: Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumGameOptionPages)
+[28Oct2025 20:51:54.461] [main/WARN] [mixin/]: Error loading class: net/vulkanmod/config/option/Options (java.lang.ClassNotFoundException: net.vulkanmod.config.option.Options)
+[28Oct2025 20:51:55.372] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[28Oct2025 20:52:02.686] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Registering server started event...
+[28Oct2025 20:52:02.688] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[28Oct2025 20:52:02.688] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[28Oct2025 20:52:02.722] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.206, for MC 1.21.1
+[28Oct2025 20:52:02.836] [modloading-worker-0/INFO] [glitchcore/]: Registered synced config with path sereneseasons/fertility.toml
+[28Oct2025 20:52:02.836] [modloading-worker-0/INFO] [glitchcore/]: Registered synced config with path sereneseasons/seasons.toml
+[28Oct2025 20:52:02.932] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Starting Bean Context
+[28Oct2025 20:52:02.964] [modloading-worker-0/INFO] [com.iafenvoy.iceandfire.IceAndFire/]: Ice And Fire common config version match.
+[28Oct2025 20:52:03.064] [modloading-worker-0/INFO] [twilightforest.beans.TFBeanContext/]: Bean Context loaded in 132 ms
+[28Oct2025 20:52:03.130] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.11.
+[28Oct2025 20:52:03.482] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[28Oct2025 20:52:03.539] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[28Oct2025 20:52:09.748] [modloading-sync-worker/INFO] [Puzzles Lib/]: Dispatching loading event for config mutantmonsters-common.toml
+[28Oct2025 20:52:09.795] [modloading-worker-0/INFO] [com.iafenvoy.jupiter.Jupiter/]: 0 Jupiter entrypoint(s) detected: 
+[28Oct2025 20:52:09.963] [modloading-sync-worker/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[28Oct2025 20:52:09.978] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[28Oct2025 20:52:10.341] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mutantmonsters] Found status: UP_TO_DATE Current: 21.1.0 Target: null
+[28Oct2025 20:52:10.342] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [dynamiclights] Starting version check at https://api.modrinth.com/updates/7YjclEGc/forge_updates.json?neoforge=only
+[28Oct2025 20:52:10.369] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[28Oct2025 20:52:10.565] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverminehola/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23158!/assets/.mcassetsroot' uses unexpected schema
+[28Oct2025 20:52:10.566] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/serverminehola/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23158!/data/.mcassetsroot' uses unexpected schema
+[28Oct2025 20:52:10.716] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [dynamiclights] Found status: UP_TO_DATE Current: 1.9+mod Target: null
+[28Oct2025 20:52:10.716] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Starting version check at https://neoforge.curseupdate.com/32274/journeymap
+[28Oct2025 20:52:10.768] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21.1-6.0.0-beta.52 Target: 1.21.1-6.0.0-beta.52
+[28Oct2025 20:52:10.768] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore_neoforge.json
+[28Oct2025 20:52:10.870] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [uteamcore] Found status: UP_TO_DATE Current: 5.6.2.384 Target: null
+[28Oct2025 20:52:10.871] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_sleep] Starting version check at https://api.modrinth.com/updates/WTzuSu8P/forge_updates.json?neoforge=only
+[28Oct2025 20:52:11.046] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [mr_sleep] Found status: AHEAD Current: 1-v.3.2.2 Target: null
+[28Oct2025 20:52:11.046] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json?m=1.21.1&l=NeoForge&v=21.1.83
+[28Oct2025 20:52:11.210] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.6.3003 Target: null
+[28Oct2025 20:52:11.210] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks_neoforge.json
+[28Oct2025 20:52:11.226] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 3.0.2.129 Target: null
+[28Oct2025 20:52:11.226] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [forgeconfigapiport] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/forgeconfigapiport.json
+[28Oct2025 20:52:11.232] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [forgeconfigapiport] Found status: UP_TO_DATE Current: 21.1.4 Target: null
+[28Oct2025 20:52:11.233] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[28Oct2025 20:52:11.306] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.10 Target: 1.10.1
+[28Oct2025 20:52:11.306] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/neoforge-update.json
+[28Oct2025 20:52:11.310] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.4.8 Target: null
+[28Oct2025 20:52:11.310] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[28Oct2025 20:52:11.314] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 21.1.38 Target: 21.1.39
+[28Oct2025 20:52:11.314] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [extragems] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/ExtraGems_NEO.json
+[28Oct2025 20:52:11.459] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [extragems] Found status: UP_TO_DATE Current: 3.0.5 Target: null
+[28Oct2025 20:52:12.892] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag choccos_mobs:racoon_search_loot as it is missing following references: 
+	spelunking_secrets:silverfish (from mod/choccos_mobs)
+	spelunking_secrets:salt (from mod/choccos_mobs)
+	camping:sweet_berry_jam (from mod/choccos_mobs)
+	camping:blueberry_jam (from mod/choccos_mobs)
+	camping:burned_marshmallow (from mod/choccos_mobs)
+	rumpnissar:baby_rumpnissar (from mod/choccos_mobs)
+[28Oct2025 20:52:13.360] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iceandfire:delight/pixie_dust_milky_tea
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:297) [vanilla.jar:0.1.34]
+	at net.neoforged.serverstarterjar.Main.main(Main.java:76) [vanilla.jar:0.1.34]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) [vanilla.jar:0.1.34]
+[28Oct2025 20:52:13.389] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iceandfire:delight/cooked_rice_with_ice_dragon_meat
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:297) [vanilla.jar:0.1.34]
+	at net.neoforged.serverstarterjar.Main.main(Main.java:76) [vanilla.jar:0.1.34]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) [vanilla.jar:0.1.34]
+[28Oct2025 20:52:13.475] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iceandfire:delight/cooked_rice_with_lightning_dragon_meat
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:297) [vanilla.jar:0.1.34]
+	at net.neoforged.serverstarterjar.Main.main(Main.java:76) [vanilla.jar:0.1.34]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) [vanilla.jar:0.1.34]
+[28Oct2025 20:52:13.496] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iceandfire:delight/ghost_cream
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:297) [vanilla.jar:0.1.34]
+	at net.neoforged.serverstarterjar.Main.main(Main.java:76) [vanilla.jar:0.1.34]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) [vanilla.jar:0.1.34]
+[28Oct2025 20:52:13.517] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe iceandfire:delight/cooked_rice_with_fire_dragon_meat
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: farmersdelight:cooking
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.41/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.41.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:297) [vanilla.jar:0.1.34]
+	at net.neoforged.serverstarterjar.Main.main(Main.java:76) [vanilla.jar:0.1.34]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) [vanilla.jar:0.1.34]
+[28Oct2025 20:52:13.526] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 3945 recipes
+[28Oct2025 20:52:13.986] [main/ERROR] [net.minecraft.advancements.AdvancementTree/]: Couldn't load advancements: [dungeons_arise:find_thornborn_towers, dungeons_arise:find_fishing_hut]
+[28Oct2025 20:52:13.986] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 4039 advancements
+[28Oct2025 20:52:13.990] [main/INFO] [com.iafenvoy.iceandfire.IceAndFire/]: Ice And Fire common config version match.
+[28Oct2025 20:52:13.991] [main/INFO] [com.iafenvoy.jupiter.Jupiter/]: Successfully reload 1 server config(s).
+[28Oct2025 20:52:14.002] [main/INFO] [Curios API/]: Loaded 11 curio slots
+[28Oct2025 20:52:14.005] [main/INFO] [Curios API/]: Loaded 11 curio entities
+[28Oct2025 20:52:18.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[28Oct2025 20:52:18.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[28Oct2025 20:52:18.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[28Oct2025 20:52:18.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28Oct2025 20:52:18.863] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[28Oct2025 20:52:18.908] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[28Oct2025 20:52:18.946] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[28Oct2025 20:52:18.946] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[28Oct2025 20:52:18.947] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[28Oct2025 20:52:18.947] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[28Oct2025 20:52:18.962] [Server thread/INFO] [Puzzles Lib/]: Dispatching loading event for config mutantmonsters-server.toml
+[28Oct2025 20:52:18.970] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[28Oct2025 20:52:19.182] [Server thread/INFO] [Framework/]: Loading server configs...
+[28Oct2025 20:52:19.199] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[28Oct2025 20:52:19.209] [Server thread/INFO] [CheckedThreadLocalRandom/]: Enforcing safe world random access
+[28Oct2025 20:52:19.649] [Server thread/INFO] [TheSpeedyObjectFactory/]: Using TheSpeedyObjectFactory with Unsafe
+[28Oct2025 20:52:20.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: its on
+[28Oct2025 20:52:23.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: its on
+[28Oct2025 20:52:23.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: its on
+[28Oct2025 20:52:23.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: its on
+[28Oct2025 20:52:23.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: its on
+[28Oct2025 20:52:23.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Oct2025 20:52:24.168] [c2me-worker-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Oct2025 20:52:24.169] [c2me-worker-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28Oct2025 20:52:24.639] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[28Oct2025 20:52:25.148] [c2me-worker-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[28Oct2025 20:52:25.641] [c2me-worker-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[28Oct2025 20:52:26.947] [c2me-worker-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[28Oct2025 20:52:26.950] [c2me-worker-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[28Oct2025 20:52:27.141] [c2me-worker-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
+[28Oct2025 20:52:27.449] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3810 ms
+[28Oct2025 20:52:27.450] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.491s)! For help, type "help"
+[28Oct2025 20:52:27.549] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[28Oct2025 20:52:27.553] [Server thread/INFO] [journeymap/]: Loaded null for service interface journeymap.api.services.WebMapService
+[28Oct2025 20:52:27.554] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeClientHooks@65f93158 for service interface journeymap.api.services.ClientPlatformService
+[28Oct2025 20:52:27.556] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.NeoForgeHooks@5b9f5c02 for service interface journeymap.api.services.CommonPlatformService
+[28Oct2025 20:52:33.374] [Server thread/WARN] [C2ME HookCompatibility/]: Certain optimizations may be disabled because ChunkDataEvent.Save is used by: [@SubscribeEvent: class dev.architectury.event.forge.EventHandlerImplCommon eventChunkDataEvent(Lnet/neoforged/neoforge/event/level/ChunkDataEvent$Save;)V]
+[28Oct2025 20:52:40.411] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dani27317[/192.168.193.149:60745] logged in with entity id 448 at (289.69999998807907, 78.0, 27.30000001192093)
+[28Oct2025 20:52:40.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 joined the game
+[28Oct2025 20:52:40.530] [Server thread/INFO] [artifacts.Artifacts/]: Sending item configs to client
+[28Oct2025 20:52:41.297] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Franchiiiiiii[/192.168.193.118:51087] logged in with entity id 450 at (81.53411957356566, 61.486720043747425, -756.6391794126176)
+[28Oct2025 20:52:41.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii joined the game
+[28Oct2025 20:52:41.325] [Server thread/INFO] [artifacts.Artifacts/]: Sending item configs to client
+[28Oct2025 20:52:43.719] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Franchiiiiiii moved too quickly! 0.0,-10.80652611000901,0.0
+[28Oct2025 20:52:43.745] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3551ms or 71 ticks behind
+[28Oct2025 20:52:44.625] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: julian9120[/192.168.193.246:49583] logged in with entity id 599 at (26.286626662778712, 61.0, 266.30000001192093)
+[28Oct2025 20:52:44.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: julian9120 joined the game
+[28Oct2025 20:52:44.678] [Server thread/INFO] [artifacts.Artifacts/]: Sending item configs to client
+[28Oct2025 20:53:02.326] [Server thread/WARN] [tombstone/]: The death event of the player Franchiiiiiii was canceled by another mod
+[28Oct2025 20:53:02.403] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved
+[28Oct2025 20:53:08.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii drowned
+[28Oct2025 20:53:08.780] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved
+[28Oct2025 20:53:12.316] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13572ms or 271 ticks behind
+[28Oct2025 20:55:02.116] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Joaquin11[/192.168.193.207:59080] logged in with entity id 13749 at (136.7726150627728, 64.17675927506424, -1416.3326634000014)
+[28Oct2025 20:55:02.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 joined the game
+[28Oct2025 20:55:02.140] [Server thread/INFO] [artifacts.Artifacts/]: Sending item configs to client
+[28Oct2025 20:55:03.052] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: PixieEntity['Pixie'/13851, l='ServerLevel[world]', x=152.95, y=77.50, z=-1456.30]
+[28Oct2025 20:55:05.509] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[28Oct2025 20:55:17.022] [Server thread/WARN] [tombstone/]: The death event of the player Franchiiiiiii was canceled by another mod
+[28Oct2025 20:55:17.049] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved
+[28Oct2025 20:55:19.640] [Server thread/WARN] [tombstone/]: The death event of the player julian9120 was canceled by another mod
+[28Oct2025 20:55:19.652] [Server thread/INFO] [tombstone/]: The player julian9120 has successfully been saved
+[28Oct2025 20:55:23.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii was slain by Skeleton
+[28Oct2025 20:55:33.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: julian9120 blew up
+[28Oct2025 20:55:40.980] [Server thread/WARN] [tombstone/]: The death event of the player Franchiiiiiii was canceled by another mod
+[28Oct2025 20:55:40.997] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved
+[28Oct2025 20:55:43.752] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[28Oct2025 20:55:52.933] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: xFrann7x[/192.168.193.39:54953] logged in with entity id 22211 at (125.55908236605895, 62.11076431274413, -521.2902376250878)
+[28Oct2025 20:55:52.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x joined the game
+[28Oct2025 20:55:53.044] [Server thread/INFO] [artifacts.Artifacts/]: Sending item configs to client
+[28Oct2025 20:56:06.244] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[28Oct2025 20:56:17.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii was slain by Skeleton
+[28Oct2025 20:56:26.694] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[28Oct2025 20:57:12.047] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[28Oct2025 20:57:57.842] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dani27317 moved too quickly! 9.398984457950093,-1.4997626972299827,-3.7421691361098937
+[28Oct2025 20:57:57.854] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3109ms or 62 ticks behind
+[28Oct2025 20:58:19.714] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
+[28Oct2025 20:59:14.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 32 [Leather] to Dani27317
+[28Oct2025 20:59:55.205] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-191, y=-31, z=-780}
+[28Oct2025 21:00:55.157] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-239, y=-13, z=-651}
+[28Oct2025 21:00:55.158] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-239, y=-13, z=-652}
+[28Oct2025 21:01:53.802] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=287, y=75, z=37} BlockPos{x=286, y=75, z=37}
+[28Oct2025 21:02:27.607] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-139, y=18, z=-469}
+[28Oct2025 21:02:27.608] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-141, y=18, z=-469}
+[28Oct2025 21:03:03.888] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=277, y=72, z=36} BlockPos{x=277, y=71, z=36}
+[28Oct2025 21:03:16.046] [Server thread/WARN] [tombstone/]: The death event of the player Franchiiiiiii was canceled by another mod
+[28Oct2025 21:03:16.063] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved
+[28Oct2025 21:03:19.818] [Server thread/WARN] [tombstone/]: The death event of the player xFrann7x was canceled by another mod
+[28Oct2025 21:03:19.839] [Server thread/INFO] [tombstone/]: The player xFrann7x has successfully been saved
+[28Oct2025 21:03:24.073] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=276, y=71, z=33} BlockPos{x=275, y=71, z=33}
+[28Oct2025 21:03:25.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii was slain by Skeleton
+[28Oct2025 21:03:30.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x was slain by Skeleton
+[28Oct2025 21:03:32.705] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
+[28Oct2025 21:03:42.455] [Server thread/WARN] [tombstone/]: The death event of the player Franchiiiiiii was canceled by another mod
+[28Oct2025 21:03:42.465] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved
+[28Oct2025 21:03:48.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii was slain by Skeleton
+[28Oct2025 21:03:50.120] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2426ms or 48 ticks behind
+[28Oct2025 21:04:07.066] [Server thread/WARN] [tombstone/]: The death event of the player xFrann7x was canceled by another mod
+[28Oct2025 21:04:07.081] [Server thread/INFO] [tombstone/]: The player xFrann7x has successfully been saved
+[28Oct2025 21:04:13.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x has reached the goal [Chain Death]
+[28Oct2025 21:04:13.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x was slain by Skeleton
+[28Oct2025 21:04:55.631] [Server thread/WARN] [tombstone/]: The death event of the player xFrann7x was canceled by another mod
+[28Oct2025 21:04:55.640] [Server thread/INFO] [tombstone/]: The player xFrann7x has successfully been saved
+[28Oct2025 21:05:06.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x was slain by Skeleton
+[28Oct2025 21:07:20.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 has reached the goal [Greed may lead to loss]
+[28Oct2025 21:07:59.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 has made the advancement [Chest Slayer]
+[28Oct2025 21:13:17.684] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=16, y=65, z=272} BlockPos{x=13, y=63, z=272}
+[28Oct2025 21:15:16.509] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[28Oct2025 21:15:16.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaquin11> herobrine: dani te veo
+[28Oct2025 21:15:32.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xFrann7x> eres homo?
+[28Oct2025 21:15:55.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaquin11> porfa este: ffffffffffffffffffffffffffffffff
+[28Oct2025 21:20:59.905] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/50001, l='ServerLevel[world]', x=275.61, y=63.94, z=70.38] died, message: 'Leatherworker was shot by Pillager'
+[28Oct2025 21:21:55.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x has made the advancement [Funeral Theft]
+[28Oct2025 21:22:34.618] [Server thread/WARN] [tombstone/]: The death event of the player Franchiiiiiii was canceled by another mod
+[28Oct2025 21:22:34.676] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved
+[28Oct2025 21:22:39.565] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[28Oct2025 21:22:46.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii was doomed to fall by Fire Dragon
+[28Oct2025 21:22:56.647] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2103ms or 42 ticks behind
+[28Oct2025 21:23:15.072] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3428ms or 68 ticks behind
+[28Oct2025 21:23:36.502] [Server thread/WARN] [tombstone/]: The death event of the player Franchiiiiiii was canceled by another mod
+[28Oct2025 21:23:36.564] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved
+[28Oct2025 21:23:48.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii went up in flames
+[28Oct2025 21:24:07.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaquin11> herobrine: fran titan para que me esta dando diarrea
+[28Oct2025 21:24:17.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xFrann7x> perdon amo
+[28Oct2025 21:24:23.249] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[28Oct2025 21:25:24.776] [Server thread/WARN] [tombstone/]: The death event of the player Franchiiiiiii was canceled by another mod
+[28Oct2025 21:25:24.790] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved
+[28Oct2025 21:25:43.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii was turned into KFC by a dragon
+[28Oct2025 21:26:02.557] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[28Oct2025 21:26:31.027] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13483ms or 269 ticks behind
+[28Oct2025 21:26:49.330] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3336ms or 66 ticks behind
+[28Oct2025 21:27:06.532] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2238ms or 44 ticks behind
+[28Oct2025 21:28:39.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x has made the advancement [The Lighthouse]
+[28Oct2025 21:28:49.896] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[28Oct2025 21:30:14.259] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[28Oct2025 21:30:49.368] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[28Oct2025 21:31:17.791] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4597ms or 91 ticks behind
+[28Oct2025 21:31:40.453] [Server thread/WARN] [tombstone/]: The death event of the player Joaquin11 was canceled by another mod
+[28Oct2025 21:31:40.461] [Server thread/INFO] [tombstone/]: The player Joaquin11 has successfully been saved
+[28Oct2025 21:32:01.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 was slain by Hoglin
+[28Oct2025 21:32:35.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 has made the advancement [Ol' Betsy]
+[28Oct2025 21:32:35.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 has made the advancement [Take Aim]
+[28Oct2025 21:33:56.354] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/605, l='ServerLevel[world]', x=307.50, y=71.00, z=50.58] died, message: 'Farmer was shot by Pillager'
+[28Oct2025 21:34:33.956] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[28Oct2025 21:34:53.332] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4388ms or 87 ticks behind
+[28Oct2025 21:35:18.635] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10341ms or 206 ticks behind
+[28Oct2025 21:35:25.682] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Trying to set block entity net.minecraft.world.level.block.entity.BrushableBlockEntity@687489cf at position BlockPos{x=380, y=20, z=2885}, but state Block{minecraft:chest}[facing=north,type=single,waterlogged=false] does not allow it
+[28Oct2025 21:35:41.452] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7858ms or 157 ticks behind
+[28Oct2025 21:36:01.815] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5371ms or 107 ticks behind
+[28Oct2025 21:36:19.610] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2816ms or 56 ticks behind
+[28Oct2025 21:36:37.452] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2858ms or 57 ticks behind
+[28Oct2025 21:36:54.575] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind
+[28Oct2025 21:37:03.586] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:37:03.591] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:37:03.592] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:37:03.603] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:37:03.605] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:37:03.606] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:37:03.607] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:37:03.608] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:37:22.795] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[28Oct2025 21:37:46.097] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "julian9120" tried to enter a passcode into "Passcode-protected Chest" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=25, y=60, z=262}] too quickly!
+[28Oct2025 21:37:48.668] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10874ms or 217 ticks behind
+[28Oct2025 21:38:36.373] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:38:36.374] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:38:36.374] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:38:36.389] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:38:36.390] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:38:55.270] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
+[28Oct2025 21:39:12.463] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2219ms or 44 ticks behind
+[28Oct2025 21:40:55.339] [Server thread/WARN] [tombstone/]: The death event of the player xFrann7x was canceled by another mod
+[28Oct2025 21:40:55.341] [Server thread/INFO] [tombstone/]: The player xFrann7x has successfully been saved
+[28Oct2025 21:41:06.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown item 'iceandfire:dragon_meat'
+[28Oct2025 21:41:06.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...Dani27317 iceandfire:dragon_meat 64<--[HERE]
+[28Oct2025 21:41:20.627] [Server thread/WARN] [tombstone/]: The death event of the player Franchiiiiiii was canceled by another mod
+[28Oct2025 21:41:20.630] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved
+[28Oct2025 21:41:37.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 has made the advancement [Dragon Growth Hormone]
+[28Oct2025 21:41:37.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 64 [Dragon Meal] to Dani27317
+[28Oct2025 21:43:54.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 has made the advancement [Dragon Growth Hormone]
+[28Oct2025 21:45:39.530] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[28Oct2025 21:47:42.600] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[28Oct2025 21:48:07.196] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9602ms or 192 ticks behind
+[28Oct2025 21:48:25.933] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3739ms or 74 ticks behind
+[28Oct2025 21:48:33.351] [c2me-worker-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[28Oct2025 21:48:33.354] [c2me-worker-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[28Oct2025 21:48:33.841] [c2me-worker-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[28Oct2025 21:48:33.845] [c2me-worker-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[28Oct2025 21:48:33.953] [c2me-worker-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[28Oct2025 21:48:33.955] [c2me-worker-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[28Oct2025 21:48:33.993] [c2me-worker-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[28Oct2025 21:48:33.995] [c2me-worker-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
+[28Oct2025 21:49:06.036] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 25142ms or 502 ticks behind
+[28Oct2025 21:49:24.799] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3805ms or 76 ticks behind
+[28Oct2025 21:50:13.996] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[28Oct2025 21:50:25.165] [c2me-worker-0/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:50:25.168] [c2me-worker-0/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:50:25.205] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:50:25.206] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:50:32.119] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3125ms or 62 ticks behind
+[28Oct2025 21:50:46.470] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:50:46.472] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:50:46.473] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:50:46.474] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:50:47.273] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:50:47.275] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:50:47.276] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 21:50:52.799] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5705ms or 114 ticks behind
+[28Oct2025 21:51:13.737] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: xFrann7x moved too quickly! -0.13429148808938862,-11.043331777419795,0.9885434736611387
+[28Oct2025 21:51:17.455] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9661ms or 193 ticks behind
+[28Oct2025 21:51:40.265] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7821ms or 156 ticks behind
+[28Oct2025 21:52:04.557] [c2me-worker-0/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-289, y=-57, z=-281}
+[28Oct2025 21:52:04.561] [c2me-worker-0/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-287, y=-56, z=-283}
+[28Oct2025 21:52:04.561] [c2me-worker-0/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-287, y=-57, z=-283}
+[28Oct2025 21:52:04.595] [c2me-worker-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-318, y=-45, z=-204}
+[28Oct2025 21:52:04.595] [c2me-worker-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
+[28Oct2025 21:52:04.596] [c2me-worker-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-318, y=-45, z=-202}
+[28Oct2025 21:52:05.556] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10312ms or 206 ticks behind
+[28Oct2025 21:52:25.177] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4633ms or 92 ticks behind
+[28Oct2025 21:52:53.598] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[28Oct2025 21:53:12.679] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4085ms or 81 ticks behind
+[28Oct2025 21:53:31.722] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4078ms or 81 ticks behind
+[28Oct2025 21:53:52.440] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5746ms or 114 ticks behind
+[28Oct2025 21:54:10.587] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3193ms or 63 ticks behind
+[28Oct2025 21:54:28.120] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2576ms or 51 ticks behind
+[28Oct2025 21:54:37.204] [c2me-worker-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-283, y=-56, z=-275}
+[28Oct2025 21:54:37.900] [c2me-worker-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-281, y=-50, z=-279}
+[28Oct2025 21:54:37.901] [c2me-worker-1/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-281, y=-57, z=-280}
+[28Oct2025 21:54:47.913] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4819ms or 96 ticks behind
+[28Oct2025 21:55:05.078] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2184ms or 43 ticks behind
+[28Oct2025 21:55:23.124] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3080ms or 61 ticks behind
+[28Oct2025 21:55:49.519] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[28Oct2025 21:56:10.123] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5628ms or 112 ticks behind
+[28Oct2025 21:56:29.781] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4687ms or 93 ticks behind
+[28Oct2025 21:56:47.967] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3223ms or 64 ticks behind
+[28Oct2025 21:57:08.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved wrongly! 0.28520680651519825
+[28Oct2025 21:57:08.550] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved wrongly! 0.6372420740934572
+[28Oct2025 21:57:11.962] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9018ms or 180 ticks behind
+[28Oct2025 21:57:32.160] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[28Oct2025 21:57:51.545] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[28Oct2025 21:58:12.623] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2079ms or 41 ticks behind
+[28Oct2025 21:58:30.698] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[28Oct2025 21:58:51.874] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2080ms or 41 ticks behind
+[28Oct2025 21:59:00.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x has made the advancement [Ghost Riders In The Sky]
+[28Oct2025 21:59:11.947] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5103ms or 102 ticks behind
+[28Oct2025 21:59:32.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii has made the advancement [The Lighthouse]
+[28Oct2025 21:59:33.576] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6632ms or 132 ticks behind
+[28Oct2025 21:59:55.916] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7372ms or 147 ticks behind
+[28Oct2025 22:00:10.024] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! 0.22167850375990383,0.0,10.978693471510041
+[28Oct2025 22:00:10.029] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! 0.09185681879455387,0.0,12.338447793670184
+[28Oct2025 22:00:22.671] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! 7.122896305415225,4.033925210824066,6.399552708402098
+[28Oct2025 22:00:22.676] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! 7.960154086035573,4.748501243594575,7.138547362847021
+[28Oct2025 22:00:22.679] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! 8.7898403196142,5.492864901795599,7.868970187093055
+[28Oct2025 22:00:27.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 has made the advancement [The Imperial March]
+[28Oct2025 22:00:32.942] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22048ms or 440 ticks behind
+[28Oct2025 22:00:53.268] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5374ms or 107 ticks behind
+[28Oct2025 22:01:13.898] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5654ms or 113 ticks behind
+[28Oct2025 22:01:24.785] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! 3.3814212987540486,0.0,10.181503363007323
+[28Oct2025 22:01:24.788] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! 3.7366158068961113,0.0,11.489402386467418
+[28Oct2025 22:01:24.802] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! 4.068546637385339,0.0,12.804486661782676
+[28Oct2025 22:01:36.838] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7944ms or 158 ticks behind
+[28Oct2025 22:01:54.497] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2702ms or 54 ticks behind
+[28Oct2025 22:02:13.833] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -0.993091477601638,0.0,10.974328767257703
+[28Oct2025 22:02:18.993] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9499ms or 189 ticks behind
+[28Oct2025 22:02:39.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 has made the advancement [Ghost Riders In The Sky]
+[28Oct2025 22:02:41.011] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7067ms or 141 ticks behind
+[28Oct2025 22:02:58.145] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[28Oct2025 22:03:03.667] [Server thread/WARN] [tombstone/]: The death event of the player xFrann7x was canceled by another mod
+[28Oct2025 22:03:03.711] [Server thread/INFO] [tombstone/]: The player xFrann7x has successfully been saved
+[28Oct2025 22:03:35.168] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[28Oct2025 22:03:52.894] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii has made the advancement [Your First Receptacle]
+[28Oct2025 22:03:52.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii has made the advancement [Funeral Theft]
+[28Oct2025 22:04:01.809] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/900220, l='ServerLevel[world]', x=583.28, y=78.50, z=3644.37] died, message: 'Villager suffocated in a wall'
+[28Oct2025 22:04:03.549] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13405ms or 268 ticks behind
+[28Oct2025 22:04:23.392] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[28Oct2025 22:04:31.933] [c2me-worker-0/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:04:32.294] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:04:32.295] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:04:32.296] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:04:32.302] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:04:32.615] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:04:34.348] [c2me-worker-0/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:04:34.355] [c2me-worker-0/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:04:41.202] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2858ms or 57 ticks behind
+[28Oct2025 22:06:44.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 has made the advancement [Dragon Commander]
+[28Oct2025 22:06:44.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Dragon Command Staff] to Dani27317
+[28Oct2025 22:07:06.287] [c2me-worker-0/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:06.288] [c2me-worker-0/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:13.490] [c2me-worker-0/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:13.760] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:13.761] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:13.761] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:13.762] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:13.762] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:17.494] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:17.494] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:17.495] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:17.495] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:17.497] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:17.497] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:17.508] [c2me-worker-1/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:21.545] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[28Oct2025 22:07:26.241] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:28.589] [c2me-worker-0/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:28.854] [c2me-worker-2/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[28Oct2025 22:07:38.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 has made the advancement [The Song of the Dragons]
+[28Oct2025 22:07:38.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Dragon Bone Flute] to Dani27317
+[28Oct2025 22:07:48.255] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[28Oct2025 22:08:18.054] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[28Oct2025 22:08:44.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 has made the advancement [An Ear-Shattering Roar]
+[28Oct2025 22:08:44.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Dragon Horn] to Dani27317
+[28Oct2025 22:09:02.230] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -5.990131886045106,2.798879021678786,8.9885708323568
+[28Oct2025 22:09:02.231] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -6.484826374322552,3.3901326628513146,9.982340975127954
+[28Oct2025 22:09:02.232] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -6.98491098728482,4.0301137167057846,10.955899112014322
+[28Oct2025 22:09:02.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -7.489749690219128,4.713072348545737,11.911630259710364
+[28Oct2025 22:09:02.241] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -7.998781500508812,5.4339372041688705,12.85163800294049
+[28Oct2025 22:09:02.242] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -8.51151163148586,6.188235349168778,13.777777703431639
+[28Oct2025 22:09:02.243] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -9.027252239784048,6.97202165539899,14.691850524675374
+[28Oct2025 22:09:02.244] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -9.544619308607935,7.7818165198343365,15.59594475044787
+[28Oct2025 22:09:02.245] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -10.063420915615438,8.614550932606619,16.491237855015243
+[28Oct2025 22:09:02.317] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -5.081939135056132,7.204646146866423,9.406883787538845
+[28Oct2025 22:09:07.066] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -6.5395212377814005,7.754304158173824,4.804935947798185
+[28Oct2025 22:09:07.067] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -7.3652427225018755,8.722558400170385,5.398930219484555
+[28Oct2025 22:09:07.068] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -8.192137006369876,9.69066623890879,5.991986583555899
+[28Oct2025 22:09:07.070] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -9.020065699086103,10.658644949973507,6.584215713111007
+[28Oct2025 22:09:07.071] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -9.848906740406392,11.626509770430033,7.175715221822429
+[28Oct2025 22:09:07.073] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -10.67855247319551,12.594274139370128,7.7665712049497415
+[28Oct2025 22:09:07.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -11.508907943860208,13.561949910072713,8.356859598512074
+[28Oct2025 22:09:07.074] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2230ms or 44 ticks behind
+[28Oct2025 22:09:07.130] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ice Dragon (vehicle of Dani27317) moved too quickly! -6.624759946021072,7.7436636110412,4.736769089284735
+[28Oct2025 22:09:29.487] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7443ms or 148 ticks behind
+[28Oct2025 22:09:40.259] [Server thread/WARN] [tombstone/]: The death event of the player xFrann7x was canceled by another mod
+[28Oct2025 22:09:40.318] [Server thread/INFO] [tombstone/]: The player xFrann7x has successfully been saved
+[28Oct2025 22:09:47.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x was doomed to fall by Wither Skeleton
+[28Oct2025 22:10:49.123] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[28Oct2025 22:11:00.273] [Server thread/WARN] [tombstone/]: The death event of the player Dani27317 was canceled by another mod
+[28Oct2025 22:11:00.333] [Server thread/INFO] [tombstone/]: The player Dani27317 has successfully been saved
+[28Oct2025 22:11:06.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 fell from a high place
+[28Oct2025 22:11:07.347] [Server thread/WARN] [tombstone/]: The death event of the player Joaquin11 was canceled by another mod
+[28Oct2025 22:11:07.406] [Server thread/INFO] [tombstone/]: The player Joaquin11 has successfully been saved
+[28Oct2025 22:11:07.674] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dani27317 moved too quickly! -559.6692370427598,9.0,-3271.062061274457
+[28Oct2025 22:11:07.686] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
+[28Oct2025 22:11:17.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 withered away
+[28Oct2025 22:11:24.908] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2264ms or 45 ticks behind
+[28Oct2025 22:11:45.968] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6074ms or 121 ticks behind
+[28Oct2025 22:12:02.001] [Server thread/ERROR] [net.minecraft.world.item.ItemStack/]: Failed to apply component patch '{minecraft:potion_contents=>PotionContents[potion=Optional[Reference{ResourceKey[minecraft:potion / minecraft:strong_healing]=net.minecraft.world.item.alchemy.Potion@3bda8856}], customColor=Optional.empty, customEffects=[]]}' to item: 'Item stack with stack size of 3 was larger than maximum: 1'
+[28Oct2025 22:12:12.011] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11067ms or 221 ticks behind
+[28Oct2025 22:12:35.442] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8448ms or 168 ticks behind
+[28Oct2025 22:12:50.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaquin11> hola
+[28Oct2025 22:13:02.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <xFrann7x> hola
+[28Oct2025 22:13:11.405] [Server thread/ERROR] [net.minecraft.world.item.ItemStack/]: Failed to apply component patch '{minecraft:potion_contents=>PotionContents[potion=Optional[Reference{ResourceKey[minecraft:potion / minecraft:strong_healing]=net.minecraft.world.item.alchemy.Potion@3bda8856}], customColor=Optional.empty, customEffects=[]]}' to item: 'Item stack with stack size of 2 was larger than maximum: 1'
+[28Oct2025 22:13:21.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 has reached the goal [Leeroy Is Back]
+[28Oct2025 22:13:53.360] [Server thread/ERROR] [net.minecraft.world.item.ItemStack/]: Failed to apply component patch '{minecraft:potion_contents=>PotionContents[potion=Optional[Reference{ResourceKey[minecraft:potion / minecraft:strong_healing]=net.minecraft.world.item.alchemy.Potion@3bda8856}], customColor=Optional.empty, customEffects=[]]}' to item: 'Item stack with stack size of 2 was larger than maximum: 1'
+[28Oct2025 22:14:41.329] [Server thread/WARN] [tombstone/]: The death event of the player Dani27317 was canceled by another mod
+[28Oct2025 22:14:41.340] [Server thread/INFO] [tombstone/]: The player Dani27317 has successfully been saved
+[28Oct2025 22:14:53.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 was slain by Wither Skeleton
+[28Oct2025 22:17:07.399] [Server thread/WARN] [tombstone/]: The death event of the player xFrann7x was canceled by another mod
+[28Oct2025 22:17:07.453] [Server thread/INFO] [tombstone/]: The player xFrann7x has successfully been saved
+[28Oct2025 22:17:21.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 has made the advancement [Spooky Scary Skeleton]
+[28Oct2025 22:17:28.883] [Server thread/WARN] [tombstone/]: The death event of the player Joaquin11 was canceled by another mod
+[28Oct2025 22:17:28.940] [Server thread/INFO] [tombstone/]: The player Joaquin11 has successfully been saved
+[28Oct2025 22:17:48.753] [Server thread/WARN] [tombstone/]: The death event of the player xFrann7x was canceled by another mod
+[28Oct2025 22:17:48.794] [Server thread/INFO] [tombstone/]: The player xFrann7x has successfully been saved
+[28Oct2025 22:17:52.033] [Server thread/WARN] [tombstone/]: The death event of the player Joaquin11 was canceled by another mod
+[28Oct2025 22:17:52.035] [Server thread/INFO] [tombstone/]: The player Joaquin11 has successfully been saved
+[28Oct2025 22:17:56.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x was slain by Hoglin
+[28Oct2025 22:17:59.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 burned to death
+[28Oct2025 22:18:01.049] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[28Oct2025 22:19:50.856] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[28Oct2025 22:20:45.958] [Server thread/WARN] [tombstone/]: The death event of the player xFrann7x was canceled by another mod
+[28Oct2025 22:20:46.003] [Server thread/INFO] [tombstone/]: The player xFrann7x has successfully been saved
+[28Oct2025 22:20:58.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: xFrann7x withered away
+[28Oct2025 22:21:47.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 has reached the goal [Home Sweet Home]
+[28Oct2025 22:21:58.607] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[28Oct2025 22:22:16.890] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3296ms or 65 ticks behind
+[28Oct2025 22:22:20.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 has reached the goal [Home Sweet Home]
+[28Oct2025 22:23:06.895] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[28Oct2025 22:23:30.868] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8974ms or 179 ticks behind
+[28Oct2025 22:24:38.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 has reached the goal [Spectral Guardian]
+[28Oct2025 22:27:25.547] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Joaquin11 lost connection: Disconnected
+[28Oct2025 22:27:25.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaquin11 left the game
+[28Oct2025 22:27:38.695] [Server thread/WARN] [tombstone/]: The death event of the player Franchiiiiiii was canceled by another mod
+[28Oct2025 22:27:38.749] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved
+[28Oct2025 22:27:44.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Franchiiiiiii fell from a high place
+[28Oct2025 22:28:06.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dani27317 has made the advancement [Suit Up]
+[28Oct2025 22:34:17.638] [Server thread/WARN] [tombstone/]: The death event of the player Franchiiiiiii was canceled by another mod
+[28Oct2025 22:34:17.641] [Server thread/INFO] [tombstone/]: The player Franchiiiiiii has successfully been saved

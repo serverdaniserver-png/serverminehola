@@ -1,0 +1,155 @@
+---- Minecraft Crash Report ----
+// Oh - I know what I did wrong!
+
+Time: 2025-10-26 23:31:20
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.getDirection()" because "player" is null
+	at TRANSFORMER/him@2.0.1/net.mcreator.him.procedures.BehindProcedure.execute(BehindProcedure.java:24) ~[him-2.0.2-neoforge-1.21.1.jar%23180!/:?] {re:classloading}
+	at TRANSFORMER/him@2.0.1/net.mcreator.him.procedures.HimOnInitialEntitySpawnProcedure.execute(HimOnInitialEntitySpawnProcedure.java:20) ~[him-2.0.2-neoforge-1.21.1.jar%23180!/:?] {re:classloading}
+	at TRANSFORMER/him@2.0.1/net.mcreator.him.entity.InstanceEntity.finalizeSpawn(InstanceEntity.java:79) ~[him-2.0.2-neoforge-1.21.1.jar%23180!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.1.206/net.neoforged.neoforge.event.EventHooks.finalizeMobSpawn(EventHooks.java:324) ~[neoforge-21.1.206-universal.jar%23159!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.EntityType.create(EntityType.java:987) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?] {re:mixin,xf:fml:default,re:classloading,xf:fml:default,pl:mixin:APP:architectury-common.mixins.json:inject.MixinEntityType from mod architectury,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.EntityType.spawn(EntityType.java:955) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?] {re:mixin,xf:fml:default,re:classloading,xf:fml:default,pl:mixin:APP:architectury-common.mixins.json:inject.MixinEntityType from mod architectury,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.entity.EntityType.spawn(EntityType.java:950) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?] {re:mixin,xf:fml:default,re:classloading,xf:fml:default,pl:mixin:APP:architectury-common.mixins.json:inject.MixinEntityType from mod architectury,pl:mixin:A}
+	at TRANSFORMER/him@2.0.1/net.mcreator.him.procedures.TimeoutProcedure.lambda$execute$0(TimeoutProcedure.java:28) ~[him-2.0.2-neoforge-1.21.1.jar%23180!/:?] {re:classloading}
+	at TRANSFORMER/him@2.0.1/net.mcreator.him.HimMod.lambda$tick$2(HimMod.java:93) ~[him-2.0.2-neoforge-1.21.1.jar%23180!/:?] {re:classloading}
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?] {re:mixin}
+	at TRANSFORMER/him@2.0.1/net.mcreator.him.HimMod.tick(HimMod.java:93) ~[him-2.0.2-neoforge-1.21.1.jar%23180!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%2362!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%2362!/:?] {}
+	at TRANSFORMER/neoforge@21.1.206/net.neoforged.neoforge.event.EventHooks.fireServerTickPost(EventHooks.java:1020) ~[neoforge-21.1.206-universal.jar%23159!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:943) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:uranus.mixins.json:MinecraftServerMixin from mod uranus,pl:mixin:APP:c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinMinecraftServer from mod c2me_fixes_general_threading_issues,pl:mixin:APP:c2me-rewrites-chunk-system.mixins.json:MixinMinecraftServer from mod c2me_rewrites_chunk_system,pl:mixin:APP:c2me-opts-scheduling.mixins.json:idle_tasks.autosave.enhanced_autosave.MixinMinecraftServer from mod c2me_opts_scheduling,pl:mixin:APP:c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinMinecraftServer from mod c2me_opts_scheduling,pl:mixin:APP:c2me-opts-scheduling.mixins.json:shutdown.MixinMinecraftServer from mod c2me_opts_scheduling,pl:mixin:APP:c2me-notickvd.mixins.json:MixinMinecraftServer from mod c2me_notickvd,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:uranus.mixins.json:MinecraftServerMixin from mod uranus,pl:mixin:APP:c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinMinecraftServer from mod c2me_fixes_general_threading_issues,pl:mixin:APP:c2me-rewrites-chunk-system.mixins.json:MixinMinecraftServer from mod c2me_rewrites_chunk_system,pl:mixin:APP:c2me-opts-scheduling.mixins.json:idle_tasks.autosave.enhanced_autosave.MixinMinecraftServer from mod c2me_opts_scheduling,pl:mixin:APP:c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinMinecraftServer from mod c2me_opts_scheduling,pl:mixin:APP:c2me-opts-scheduling.mixins.json:shutdown.MixinMinecraftServer from mod c2me_opts_scheduling,pl:mixin:APP:c2me-notickvd.mixins.json:MixinMinecraftServer from mod c2me_notickvd,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23158!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:uranus.mixins.json:MinecraftServerMixin from mod uranus,pl:mixin:APP:c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinMinecraftServer from mod c2me_fixes_general_threading_issues,pl:mixin:APP:c2me-rewrites-chunk-system.mixins.json:MixinMinecraftServer from mod c2me_rewrites_chunk_system,pl:mixin:APP:c2me-opts-scheduling.mixins.json:idle_tasks.autosave.enhanced_autosave.MixinMinecraftServer from mod c2me_opts_scheduling,pl:mixin:APP:c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinMinecraftServer from mod c2me_opts_scheduling,pl:mixin:APP:c2me-opts-scheduling.mixins.json:shutdown.MixinMinecraftServer from mod c2me_opts_scheduling,pl:mixin:APP:c2me-notickvd.mixins.json:MixinMinecraftServer from mod c2me_notickvd,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.8.0-1030-azure
+	Java Version: 21.0.8, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 2507307272 bytes (2391 MiB) / 5167382528 bytes (4928 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 7997.99
+	Virtual memory used (MiB): 8371.83
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 109968.19, total: 120377.56
+	Space in storage for workdir (MiB): available: 14864.39, total: 32077.81
+	JVM Flags: 2 total; -Xms2G -Xmx12G
+	Server Running: true
+	Player Count: 0 / 20; []
+	Active Data Packs: vanilla, mod/dynamiclights, mod_data, mod/c2me_fixes_worldgen_threading_issues, mod/c2me_threading_lighting, mod/mutantmonsters (incompatible), mod/geckolib, mod/mss (incompatible), mod/treeharvester, mod/c2me_rewrites_chunk_serializer, mod/jei (incompatible), mod/commonnetworking (incompatible), mod/c2me_opts_natives_math, mod/rainbows (incompatible), mod/c2me_fixes_general_threading_issues, mod/journeymap (incompatible), mod/neoforge, mod/artifacts, mod/glitchcore (incompatible), mod/sereneseasons, mod/c2me_opts_math, mod/uteamcore (incompatible), mod/c2me, mod/c2me_rewrites_chunk_system, mod/iceandfire (incompatible), mod/c2me_base, mod/cloth_config (incompatible), mod/mr_sleep, mod/c2me_fixes_worldgen_vanilla_bugs, mod/c2me_opts_worldgen_vanilla, mod/integration, mod/twilightforest, mod/c2me_opts_scheduling, mod/dungeons_arise, mod/him, mod/usefulbackpacks (incompatible), mod/block_factorys_bosses, mod/c2me_fixes_chunkio_threading_issues, mod/jupiter (incompatible), mod/c2me_client_uncapvd, mod/creativecore (incompatible), mod/c2me_server_utils, mod/forgeconfigapiport (incompatible), mod/c2me_opts_dfc, mod/curios (incompatible), mod/choccos_mobs, mod/naturallychargedcreepers, mod/collective, mod/securitycraft, mod/c2me_notickvd, mod/elevatorid, mod/tombstone, mod/c2me_opts_worldgen_general, mod/c2me_opts_chunkio, mod/mvs (incompatible), mod/architectury (incompatible), mod/uranus (incompatible), mod/appleskin (incompatible), mod/refurbished_furniture (incompatible), mod/puzzleslib (incompatible), mod/framework (incompatible), mod/c2me_rewrites_chunkio, mod/expandability, mod/journeymap_api (incompatible), mod/playerrevive (incompatible), mod/c2me_opts_allocs, mod/extragems, mutantmonsters:biome_modifications
+	Available Data Packs: bundle, trade_rebalance, vanilla, mod/appleskin (incompatible), mod/architectury (incompatible), mod/artifacts, mod/block_factorys_bosses, mod/c2me, mod/c2me_base, mod/c2me_client_uncapvd, mod/c2me_fixes_chunkio_threading_issues, mod/c2me_fixes_general_threading_issues, mod/c2me_fixes_worldgen_threading_issues, mod/c2me_fixes_worldgen_vanilla_bugs, mod/c2me_notickvd, mod/c2me_opts_allocs, mod/c2me_opts_chunkio, mod/c2me_opts_dfc, mod/c2me_opts_math, mod/c2me_opts_natives_math, mod/c2me_opts_scheduling, mod/c2me_opts_worldgen_general, mod/c2me_opts_worldgen_vanilla, mod/c2me_rewrites_chunk_serializer, mod/c2me_rewrites_chunk_system, mod/c2me_rewrites_chunkio, mod/c2me_server_utils, mod/c2me_threading_lighting, mod/choccos_mobs, mod/cloth_config (incompatible), mod/collective, mod/commonnetworking (incompatible), mod/creativecore (incompatible), mod/curios (incompatible), mod/dungeons_arise, mod/dynamiclights, mod/elevatorid, mod/expandability, mod/extragems, mod/forgeconfigapiport (incompatible), mod/framework (incompatible), mod/geckolib, mod/glitchcore (incompatible), mod/him, mod/iceandfire (incompatible), mod/integration, mod/jei (incompatible), mod/journeymap (incompatible), mod/journeymap_api (incompatible), mod/jupiter (incompatible), mod/mr_sleep, mod/mss (incompatible), mod/mutantmonsters (incompatible), mod/mvs (incompatible), mod/naturallychargedcreepers, mod/neoforge, mod/playerrevive (incompatible), mod/puzzleslib (incompatible), mod/rainbows (incompatible), mod/refurbished_furniture (incompatible), mod/securitycraft, mod/sereneseasons, mod/tombstone, mod/treeharvester, mod/twilightforest, mod/uranus (incompatible), mod/usefulbackpacks (incompatible), mod/uteamcore (incompatible), mod_data, mutantmonsters:biome_modifications
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -6949597396053249173
+	Is Modded: Definitely; Server brand changed to 'neoforge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeserver
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.41.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.41.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.41.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		appleskin-neoforge-mc1.21-3.0.7.jar               |AppleSkin                     |appleskin                     |3.0.7+mc1.21        |Manifest: NOSIGNATURE
+		architectury-13.0.8-neoforge.jar                  |Architectury                  |architectury                  |13.0.8              |Manifest: NOSIGNATURE
+		artifacts-neoforge-13.1.0.jar                     |Artifacts                     |artifacts                     |13.1.0              |Manifest: NOSIGNATURE
+		bossesrise-1.21.1-neoforge-1.0.9.jar              |Bosses'Rises                  |block_factorys_bosses         |1.0.9               |Manifest: NOSIGNATURE
+		choccos_mobs-0.1.3-neoforge-1.21.1.jar            |Chocco's Mobs                 |choccos_mobs                  |0.1.3               |Manifest: NOSIGNATURE
+		cloth-config-15.0.140-neoforge.jar                |Cloth Config v15 API          |cloth_config                  |15.0.140            |Manifest: NOSIGNATURE
+		collective-1.21.1-8.11.jar                        |Collective                    |collective                    |8.11                |Manifest: NOSIGNATURE
+		common-networking-neoforge-1.0.18-1.21.1.jar      |Common Networking             |commonnetworking              |1.0.18-1.21.1       |Manifest: NOSIGNATURE
+		c2me-neoforge-mc1.21.1-0.3.0+alpha.0.82.jar       |Concurrent Chunk Management En|c2me                          |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-base-mc1.21.1-0.3.0+alpha.0.82-all.jar       |Concurrent Chunk Management En|c2me_base                     |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-client-uncapvd-mc1.21.1-0.3.0+alpha.0.82.jar |Concurrent Chunk Management En|c2me_client_uncapvd           |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-fixes-chunkio-threading-issues-mc1.21.1-0.3.0|Concurrent Chunk Management En|c2me_fixes_chunkio_threading_i|0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-fixes-general-threading-issues-mc1.21.1-0.3.0|Concurrent Chunk Management En|c2me_fixes_general_threading_i|0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-fixes-worldgen-threading-issues-mc1.21.1-0.3.|Concurrent Chunk Management En|c2me_fixes_worldgen_threading_|0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-fixes-worldgen-vanilla-bugs-mc1.21.1-0.3.0+al|Concurrent Chunk Management En|c2me_fixes_worldgen_vanilla_bu|0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-notickvd-mc1.21.1-0.3.0+alpha.0.82.jar       |Concurrent Chunk Management En|c2me_notickvd                 |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-opts-chunkio-mc1.21.1-0.3.0+alpha.0.82.jar   |Concurrent Chunk Management En|c2me_opts_chunkio             |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-opts-dfc-mc1.21.1-0.3.0+alpha.0.82.jar       |Concurrent Chunk Management En|c2me_opts_dfc                 |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-opts-worldgen-general-mc1.21.1-0.3.0+alpha.0.|Concurrent Chunk Management En|c2me_opts_worldgen_general    |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-opts-math-mc1.21.1-0.3.0+alpha.0.82.jar      |Concurrent Chunk Management En|c2me_opts_math                |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-opts-allocs-mc1.21.1-0.3.0+alpha.0.82.jar    |Concurrent Chunk Management En|c2me_opts_allocs              |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-opts-natives-math-mc1.21.1-0.3.0+alpha.0.82.j|Concurrent Chunk Management En|c2me_opts_natives_math        |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-opts-scheduling-mc1.21.1-0.3.0+alpha.0.82.jar|Concurrent Chunk Management En|c2me_opts_scheduling          |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-opts-worldgen-vanilla-mc1.21.1-0.3.0+alpha.0.|Concurrent Chunk Management En|c2me_opts_worldgen_vanilla    |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-rewrites-chunkio-mc1.21.1-0.3.0+alpha.0.82.ja|Concurrent Chunk Management En|c2me_rewrites_chunkio         |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-rewrites-chunk-serializer-mc1.21.1-0.3.0+alph|Concurrent Chunk Management En|c2me_rewrites_chunk_serializer|0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-rewrites-chunk-system-mc1.21.1-0.3.0+alpha.0.|Concurrent Chunk Management En|c2me_rewrites_chunk_system    |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-server-utils-mc1.21.1-0.3.0+alpha.0.82.jar   |Concurrent Chunk Management En|c2me_server_utils             |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		c2me-threading-lighting-mc1.21.1-0.3.0+alpha.0.82.|Concurrent Chunk Management En|c2me_threading_lighting       |0.3.0+alpha.0.82+1.2|Manifest: NOSIGNATURE
+		tombstone-neoforge-1.21.1-9.4.8.jar               |Corail Tombstone              |tombstone                     |9.4.8               |Manifest: NOSIGNATURE
+		CreativeCore_NEOFORGE_v2.13.13_mc1.21.1.jar       |CreativeCore                  |creativecore                  |2.13.13             |Manifest: NOSIGNATURE
+		curios-neoforge-9.5.1+1.21.1.jar                  |Curios API                    |curios                        |9.5.1+1.21.1        |Manifest: NOSIGNATURE
+		dynamiclights-v1.9-mc1.17-1.21.9-mod.jar          |Dynamic Lights                |dynamiclights                 |1.9+mod             |Manifest: NOSIGNATURE
+		elevatorid-neoforge-1.21.1-1.11.4.jar             |ElevatorMod                   |elevatorid                    |1.21.1-1.11.4       |Manifest: NOSIGNATURE
+		expandability-12.0.0.jar                          |ExpandAbility                 |expandability                 |12.0.0              |Manifest: NOSIGNATURE
+		ExtraGems-1.21-(v.3.0.5-NEO).jar                  |Extra Gems                    |extragems                     |3.0.5               |Manifest: NOSIGNATURE
+		ForgeConfigAPIPort-v21.1.4-1.21.1-NeoForge.jar    |Forge Config API Port         |forgeconfigapiport            |21.1.4              |Manifest: NOSIGNATURE
+		framework-neoforge-1.21.1-0.9.6.jar               |Framework                     |framework                     |0.9.6               |Manifest: NOSIGNATURE
+		geckolib-neoforge-1.21.1-4.8.2.jar                |GeckoLib 4                    |geckolib                      |4.8.2               |Manifest: NOSIGNATURE
+		GlitchCore-neoforge-1.21.1-2.1.0.0.jar            |GlitchCore                    |glitchcore                    |2.1.0.0             |Manifest: NOSIGNATURE
+		him-2.0.2-neoforge-1.21.1.jar                     |him                           |him                           |2.0.1               |Manifest: NOSIGNATURE
+		IceAndFireCE-2.0-beta.7-1.21.1-neoforge.jar       |Ice And Fire Community Edition|iceandfire                    |2.0-beta.7          |Manifest: NOSIGNATURE
+		integration-neoforge-0.2.jar                      |Integration                   |integration                   |0.2                 |Manifest: NOSIGNATURE
+		journeymap-neoforge-1.21.1-6.0.0-beta.52.jar      |Journeymap                    |journeymap                    |1.21.1-6.0.0-beta.52|Manifest: NOSIGNATURE
+		journeymap-api-neoforge-2.0.0-1.21.1-SNAPSHOT.jar |JourneyMap API                |journeymap_api                |2.0.0               |Manifest: NOSIGNATURE
+		Jupiter-2.2.2-neoforge.jar                        |Jupiter                       |jupiter                       |2.2.2               |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.25.0.321.jar               |Just Enough Items             |jei                           |19.25.0.321         |Manifest: NOSIGNATURE
+		server-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		mss-1.3.5-1.21.jar                                |Moog's Soaring Structures     |mss                           |1.3.5-1.21          |Manifest: NOSIGNATURE
+		mvs-4.3.0-1.21.jar                                |Moog's Voyager Structures     |mvs                           |4.3.0-1.21          |Manifest: NOSIGNATURE
+		refurbished_furniture-neoforge-1.21.1-1.0.20.jar  |MrCrayfish's Furniture Mod: Re|refurbished_furniture         |1.0.20              |Manifest: NOSIGNATURE
+		MutantMonsters-v21.1.0-1.21.1-NeoForge.jar        |Mutant Monsters               |mutantmonsters                |21.1.0              |Manifest: NOSIGNATURE
+		naturallychargedcreepers-1.21.1-3.5.jar           |Naturally Charged Creepers    |naturallychargedcreepers      |3.5                 |Manifest: NOSIGNATURE
+		neoforge-21.1.206-universal.jar                   |NeoForge                      |neoforge                      |21.1.206            |Manifest: NOSIGNATURE
+		PlayerRevive_NEOFORGE_v2.0.36_mc1.21.1.jar        |PlayerRevive                  |playerrevive                  |2.0.36              |Manifest: NOSIGNATURE
+		PuzzlesLib-v21.1.38-1.21.1-NeoForge.jar           |Puzzles Lib                   |puzzleslib                    |21.1.38             |Manifest: NOSIGNATURE
+		Rainbows-1.21-1.5.jar                             |Rainbows                      |rainbows                      |1.5                 |Manifest: NOSIGNATURE
+		[1.21.1] SecurityCraft v1.10.jar                  |SecurityCraft                 |securitycraft                 |1.10                |Manifest: NOSIGNATURE
+		SereneSeasons-neoforge-1.21.1-10.1.0.3.jar        |Serene Seasons                |sereneseasons                 |10.1.0.3            |Manifest: NOSIGNATURE
+		sleep-v.3.2.2.jar                                 |Sleep                         |mr_sleep                      |1-v.3.2.2           |Manifest: NOSIGNATURE
+		twilightforest-1.21.1-4.6.3003-universal.jar      |The Twilight Forest           |twilightforest                |4.6.3003            |Manifest: NOSIGNATURE
+		treeharvester-1.21.1-9.1.jar                      |Tree Harvester                |treeharvester                 |9.1                 |Manifest: NOSIGNATURE
+		u_team_core-neoforge-1.21.1-5.6.2.384.jar         |U Team Core                   |uteamcore                     |5.6.2.384           |Manifest: f4:a6:0b:ee:cb:8a:1a:ea:9f:9d:45:91:8f:8b:b3:ae:26:f3:bf:05:86:1d:90:9e:f6:32:2a:1a:ed:1d:ce:b0
+		uranus-2.4-1.21.1-neoforge.jar                    |Uranus                        |uranus                        |2.4                 |Manifest: NOSIGNATURE
+		useful_backpacks-neoforge-1.21.1-3.0.2.129.jar    |Useful Backpacks              |usefulbackpacks               |3.0.2.129           |Manifest: f4:a6:0b:ee:cb:8a:1a:ea:9f:9d:45:91:8f:8b:b3:ae:26:f3:bf:05:86:1d:90:9e:f6:32:2a:1a:ed:1d:ce:b0
+		DungeonsArise-1.21.x-2.1.64-release.jar           |When Dungeons Arise           |dungeons_arise                |2.1.64              |Manifest: NOSIGNATURE
+	Crash Report UUID: 6466a542-5611-44a3-88c1-c19d3cab7e8d
+	FML: 4.0.41
+	NeoForge: 21.1.206
